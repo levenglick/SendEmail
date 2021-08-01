@@ -34,7 +34,7 @@ public class Sender {
         email.setSubject("Test email");
         email.setContent("this is a test email, feel free to ignore it", "text/html");
         email.addTo("yishai.levenglick@exlibrisgroup.com");
-
+        email.addTo("Payton.Pietron@exlibrisgroup.com");
         email.send();
     }
 
